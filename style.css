@@ -1,0 +1,72 @@
+input:enabled
+
+{
+    background-color:green;
+}
+input:disabled
+{
+    background-color:red;
+}
+input:checkbox
+{
+    accent-color:red;
+}
+div p:first-child
+{
+    color:green;
+}
+input:focus
+{
+    background-color:green;
+}
+input:in-range
+{
+    border: 2px solid green;
+    background-color:green;
+}
+input:out-of-range
+{
+    border: 2px solid red;
+    background-color:red;
+}
+input:valid
+{
+    color: green;
+    border: 2px solid green;
+}
+input:invalid
+{
+    color:red;
+    border:2px solid red;
+}
+div p:last-of-type
+{
+    color:red;
+}
+div span:last-of-type
+{
+    color:green;
+}
+.main-box
+{
+    border: 2px solid black;
+    height: 600px;
+    width: 800px;
+}
+.sub-box
+{
+    height: 200px;
+    width: 400px;
+    border: 2px solid Blue;
+}
+p{
+    color: green;
+}
+:not(p){
+    color:red;
+}
+div.main-class p:nth-child(last){
+  color:red;
+
+}
+
